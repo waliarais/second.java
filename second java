@@ -1,0 +1,31 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+public class Student {
+
+    String name;
+    int iD;
+    int age;
+
+    // Constructor - fixed parameter types and assignment
+    Student(String name, int iD, int age) {
+        this.name = name;
+        this.iD = iD;
+        this.age = age;
+    }
+
+    // Method to display info
+    public void displayInfo() {
+        System.out.println("Student name: " + name);
+        System.out.println("Student ID: " + iD);
+        System.out.println("Student age: " + age);
+    }
+
+    public static void main(String[] args) {
+        // Fixed class name, variable declaration, and constructor call
+        Student s1 = new Student("Walia", 4130, 17);
+        s1.displayInfo();
+    }
+}
+
+
+    
